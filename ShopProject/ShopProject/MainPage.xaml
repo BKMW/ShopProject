@@ -85,9 +85,9 @@
                     <Image Source="{Binding Image}" Aspect="AspectFill"
                            HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="80"/>
                   </Frame>
-                  <StackLayout Grid.Row="2" Padding="0,0,0,0" Spacing="1">
+                  <StackLayout Grid.Row="2" Padding="0,0,0,0" Spacing="0">
 
-                    <Label Text="{Binding Name}" VerticalOptions="Center" HorizontalOptions="Center" FontSize="14" LineBreakMode="TailTruncation" 
+                    <Label Text="{Binding Name}" VerticalOptions="Center" HorizontalOptions="Center" FontSize="14"
                            TextColor="#5a5c60"/>
                     <Label Text="{Binding Price}" HorizontalOptions="Center" VerticalOptions="Center" FontSize="12" LineBreakMode="TailTruncation"
                            TextColor="#5a5c60"/>
@@ -122,7 +122,7 @@
                   </Frame>
                   <StackLayout Grid.Row="2" Padding="0,0,0,0" Spacing="1">
 
-                    <Label Text="{Binding Name}" VerticalOptions="Center" HorizontalOptions="Center" FontSize="14" LineBreakMode="TailTruncation" 
+                    <Label Text="{Binding Name}" VerticalOptions="Center" HorizontalOptions="Center" FontSize="14"
                            TextColor="#5a5c60"/>
                     <Label Text="{Binding Price}" HorizontalOptions="Center" VerticalOptions="Center" FontSize="12" LineBreakMode="TailTruncation"
                            TextColor="#5a5c60"/>
