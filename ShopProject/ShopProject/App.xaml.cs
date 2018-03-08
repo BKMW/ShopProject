@@ -13,8 +13,8 @@ namespace ShopProject
 		{
 			InitializeComponent();
 
-            //MainPage = new ShopProject.MainPage();
-		    MainPage = new NavigationPage(new MainPage());
+            MainPage = new ShopProject.MainPage();
+		    //MainPage = new NavigationPage(new MainPage());
         }
 
 		protected override void OnStart ()

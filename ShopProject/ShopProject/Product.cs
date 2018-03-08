@@ -10,17 +10,17 @@ namespace ShopProject
         public String Name { get; set; }
         public String Status { get; set; }
         public String Price { get; set; }
-        public String Categry { get; set; }
+        public String Category { get; set; }
         public bool IsVisible { get; set; }
 
-        public Product()
+      /*  public Product()
         {
             this.Image = Image;
             this.Name = Name;
             this.Status = Status;
             this.Price = Price;
-            this.Categry = Categry;
+            this.Category = Category;
             this.IsVisible = true;
-        }
+        }*/
     }
 }

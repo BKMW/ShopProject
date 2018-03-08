@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ShopProject
 {
-    class ProductPair :Tuple<Product,Product>
+    public class ProductPair :Tuple<Product,Product>
     {
         public ProductPair(Product item1, Product item2) : base(item1, item2?? CreateEmptyModel()) {  }
         
